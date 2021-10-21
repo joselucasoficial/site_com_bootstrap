@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(rgb(250, 174, 174), rgb(32, 32, 32));
+}
+
+.cardM {
+    display: flex;
+    justify-content: space-between;
+}
