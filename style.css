@@ -1,8 +1,71 @@
 body {
-    background-image: linear-gradient(rgb(250, 174, 174), rgb(32, 32, 32));
+    background-image: url(./imgs/shutterstock_252338818-1-920x535.jpg);
+    background-attachment: fixed;
+
+}
+
+.container {
+    background-color: cornsilk;
+    width: 1143px;
+    height: auto;
+    align-items: center;
+}
+
+header {
+    display: block;
+    justify-content: center;
 }
 
 .cardM {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-link .nav-link{
+    padding: 5px 20px 5px 20px ;
+    border-radius: 4px;
+}
+
+.nav-link:hover{
+    background-color: rgba(240, 248, 255, 0.603)
+}
+nav {
+    margin-bottom: 60px;
+    background-color: rgba(61, 61, 60, 0.507);
+    align-items: center;
+}
+
+.banner1 img{
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.t2 {
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.carousel-inner {
+    flex: 1;
+    margin-top: 80px;
+}
+
+.p-5 {
+    flex: 2;
+    background-color: rgb(183, 255, 251);
+}
+
+.col-md-8{
+    color: rgb(24, 24, 24);
 }
